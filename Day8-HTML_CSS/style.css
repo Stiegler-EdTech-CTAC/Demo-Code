@@ -1,0 +1,74 @@
+/* Styles the main heading of the page */
+h1 {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles the paragraph with id 'my-p-tag' */
+#my-p-tag {
+    color: #555;
+    font-size: 18px;
+}
+
+/* Styles all paragraphs to have a default font color and size */
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Styles the heading with class 'my-style' */
+.my-style {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Styles all strong tags with class 'my-style' */
+strong.my-style {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/* Styles list items with class 'red' */
+.red {
+    color: red;
+}
+
+/* Styles list items with specific ID 'green', although inline styles in the HTML will take precedence */
+#green {
+    color: green;
+}
+
+/* Default styles for all list items */
+li {
+    color: black;
+    font-size: 14px;
+}
+
+/* Styles for nested div elements */
+div div {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Styles for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Styles for table headers */
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styles for images */
+img {
+    border-radius: 5px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* Styles paragraphs with 20px font size and light coral color. */
+        /* However, this color will be overridden by a later rule. */
+        p { 
+            font-size: 20px; 
+            color: lightcoral;
+        }
+    
+        /* Styles div elements to be 300px by 300px with beige background and dashed green border. */
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: beige;
+            border: dashed green;
+        }
+    
+        /* Styles h1 elements with 2em font size, color #538683, and sans-serif font. */
+        h1 {
+            font-size: 2em;
+            color: #538683;
+            font-family: sans-serif;
+        }
+    
+        /* Overrides the previous paragraph color setting to red. */
+        p {
+            color: red;
+        }
+    
+        /* The class 'my-style' is declared but no styles are applied here. */
+        .my-style {
+    
+        }
+    
+        /* Styles the element with the id 'my-p-tag' with a font size of 28px. */
+        #my-p-tag {
+            font-size: 28px;
+        }
+        
+        /* Targets every odd-numbered table row, setting its background color to grey. */
+        tr:nth-child(odd) {
+            background-color: grey;
+        }
+    
+        /* Adds a hover effect to div elements, changing the background color to red when hovered. */
+        div:hover {
+            background-color: red;
+        }
+    
+        /* Styles the element with the id 'green' to have green text color. */
+        /* Note: The inline style on the element itself will override this. */
+        #green {
+            color: green;
+        }
+    
+        /* Styles elements with the class 'red' to have red text color. */
+        .red {
+            color: red;
+        }
+    
+        /* Styles all list item elements to have blue text color. */
+        li {
+            color: blue;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>This is my heading</h1>
+    <p id="my-p-tag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, modi, a labore commodi, et adipisci quae enim aut cum dolor libero dicta quo! Soluta iste non voluptates eos. Iusto, omnis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, modi, a labore commodi, et adipisci quae enim aut cum dolor libero dicta quo! Soluta iste non voluptates eos. Iusto, omnis.</p>
+    <h2 class="my-style">Some other Text</h2>
+    <strong class="my-style">this is more text</strong>
+    
+    <ul>
+        <li class="red">Tea</li>
+        <li class="red">Jam</li>
+        <li class="red">Bread</li>
+        <li style="color:yellow;" id="green">Tea</li>
+        <li class="red">Jam</li>
+        <li class="red">Bread</li>
+        <li class="red">Tea</li>
+        <li class="red">Jam</li>
+        <li class="red">Bread</li>
+    </ul>
+
+    <div>
+        <div><h1>hello</h1></div>
+        <p>This is text</p>
+    </div>
+    
+    <table>
+        <tr>
+            <th>This</th>
+            <th>is</th>
+        </tr>
+        <tr>
+            <td>an</td>
+            <td>example</td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>for</td>
+        </tr>
+        <tr>
+            <td>the</td>
+            <td>class</td>
+        </tr>
+
+    </table>
+
+    <div>
+
+    </div>
+    <img src="pictures/dolphin.jpeg" alt="dolphin" width="150" height="100">
+</body>
+</html>
